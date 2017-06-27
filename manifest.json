@@ -1,0 +1,24 @@
+{
+  "name": "eliminator",
+  "version": "0.1",
+  "manifest_version": 2,
+  
+  "description": "Eliminate your annoying google stackoverflow, and amazon tabs",
+  
+  "permissions": [
+    "tabs"
+  ],
+  
+  "icons": {
+    "48": "icon48.png"
+  },
+  
+  "background" : {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_icon": "icon19.png",
+    "default_title": "browser action sample"
+  }
+}
